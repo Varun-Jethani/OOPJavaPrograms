@@ -13,7 +13,7 @@ public class Prac03 {
 
     public static void fibonacci (int num){
         int fib1 = 0, fib2 =1, fib;
-        System.out.print(" "+fib1+","+fib2);
+        System.out.print("Fibonacci Series: "+fib1+", "+fib2);
         for (int i = 0;i<num-2;i++){
             fib = fib1+fib2;
             fib1= fib2;
@@ -49,6 +49,8 @@ public class Prac03 {
         int num3 = scan.nextInt();
         int sum = sumDig(num3);
         System.out.println("Sum of Digit is :"+sum);
+
+        scan.close();
 
     }
 }
